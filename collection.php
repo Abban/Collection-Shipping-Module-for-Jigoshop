@@ -38,9 +38,9 @@ class collection extends jigoshop_shipping_method {
     
     public function admin_options() {
     	?>
-    	<thead><tr><th scope="col" width="200px"><?php _e('Irish Shipping', 'jigoshop'); ?></th><th scope="col" class="desc">Collection based shipping.</th></tr></thead>
+    	<thead><tr><th scope="col" width="200px"><?php _e('Collection', 'jigoshop'); ?></th><th scope="col" class="desc">Collection based shipping.</th></tr></thead>
     	<tr>
-	        <td class="titledesc"><?php _e('Enable Irish Shipping', 'jigoshop') ?>:</td>
+	        <td class="titledesc"><?php _e('Enable Collection', 'jigoshop') ?>:</td>
 	        <td class="forminp">
 		        <select name="jigoshop_collection_enabled" id="jigoshop_collection_enabled" style="min-width:100px;">
 		            <option value="yes" <?php if (get_option('jigoshop_collection_enabled') == 'yes') echo 'selected="selected"'; ?>><?php _e('Yes', 'jigoshop'); ?></option>
