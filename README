@@ -1,4 +1,8 @@
-== DESCRTIPTION ==
+== DISCLAIMER ==
+
+This is a hack, use at your own peril!
+
+== DESCRIPTION ==
 
 This is a quick hack for the Jigoshop ecommerce plugin to add a collection option. It adds a new field when collection is selected then some jQuery copies the option selected into the notes textarea on the checkout form. Pretty much only needed if you have multiple collection points.
 
