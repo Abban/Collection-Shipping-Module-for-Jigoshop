@@ -1,0 +1,12 @@
+== DESCRTIPTION ==
+
+This is a quick hack for the Jigoshop ecommerce plugin to add a collection option. It adds a new field when collection is selected then some jQuery copies the option selected into the notes textarea on the checkout form. Pretty much only needed if you have multiple collection points.
+
+== INSTALLATION ==
+
+To install it do the following:
+
+1. If you haven't already done it, copy the Templates folder from the Jigoshop plugin into your theme and rename it to 'jigoshop'.
+2. Add the collection.php file to the shipping folder in the Jigoshop plugin.
+3. Open the copy-into-theme.php file and copy the php code into your theme in jigoshop/checkout/review_order.php. This goes after the jigoshop_cart::needs_shipping() if statement, around line 90. You also need to add your collection locations to it. If you only have one collection location don't copy in the select box, instead just put a not in telling the user where to collect it.
+4. Copy the javascript function into your footer or script file.
